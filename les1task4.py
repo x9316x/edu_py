@@ -1,6 +1,6 @@
 print('Введите номер координатной четверти:')
 number = int(input())
-while((number < 1) or (number > 4)):
+while (number < 1) or (number > 4):
 	print('Номер четверти должен быть равен 1, 2, 3 или 4!')
 	number = int(input())
 

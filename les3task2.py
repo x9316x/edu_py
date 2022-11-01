@@ -10,7 +10,7 @@ else:
 	arr = [0] * int(((N + 1) / 2))
 
 for i in range(N):
-		list[i] = random.randint(0,9)
+		list[i] = random.randint(0, 9)
 		
 print(list)
 
@@ -21,10 +21,8 @@ k = 0
 for i in range(N):
 	if k < (N / 2):
 		arr[i] = list[first] * list[last]
-		#print(arr[i])
 		first = first + 1
 		last = last - 1
 	k = k + 1
-	#print(i, ' ', first, ' ', last)
-			
+
 print(arr)

@@ -6,14 +6,14 @@ list = [0] * N
 sum = 0
 
 for i in range(N):
-		list[i] = round(random.uniform(0,9),2)
+		list[i] = round(random.uniform(0, 9), 2)
 		
 print(list)
 
 min = list[0] % 1
 max = list[0] % 1
 
-for i in range(1,N):
+for i in range(1, N):
 	if (list[i] % 1) < min:
 		min = (list[i] % 1)
 	elif (list[i] % 1) > max:

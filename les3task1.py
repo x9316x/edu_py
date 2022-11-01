@@ -6,7 +6,7 @@ list = [0] * N
 sum = 0
 
 for i in range(N):
-		list[i] = random.randint(0,9)
+		list[i] = random.randint(0, 9)
 		
 print(list)
 
